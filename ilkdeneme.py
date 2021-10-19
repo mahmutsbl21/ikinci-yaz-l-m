@@ -14,15 +14,15 @@ else:
 
 
 
-if(toplam<75):
-  print("Yaşasın sınıfı geçtin")
-else:
-  print("Teşşekür Belgesi KAZANDIN")
+  if(toplam<75):
+    print("Yaşasın sınıfı geçtin")
+  else:
+    print("Teşşekür Belgesi KAZANDIN")
 
 
 
 
-if(toplam<85):
-  print("Teşşekür Belgesi KAZANDIN")
-else:
-  print("Taktir Belgesi KAZANDIN")
+    if(toplam<85):
+      print("Teşşekür Belgesi KAZANDIN")
+    else:
+      print("Taktir Belgesi KAZANDIN")
