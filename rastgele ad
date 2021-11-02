@@ -1,1 +1,68 @@
+print('Uyarı: Bu rastgele oluşan isimleri kötü amaçlar için kullanmayınız.')
 
+name1 = ('isim1: ') 
+print('----------')
+name2 = ('isim2: ') 
+print('----------')
+name3 = ('isim3: ') 
+print('----------')
+name4 = ('isim4: ') 
+print('----------')
+name5 = ('isim5: ') 
+print('----------')
+name6 = ('isim6: ') 
+print('----------')
+name7 = ('isim7: ') 
+print('----------')
+name8 = ('isim8: ') 
+print('----------') 
+name9 = ('isim9: ') 
+print('----------')
+name10 = ('isim10: ') 
+print('--------------------')
+surname1 = ('soyad1: ') 
+print('--------------')
+surname2 = ('soyad2: ') 
+print('--------------')
+surname3 = ('soyad3: ') 
+print('--------------')
+surname4 = ('soyad4: ') 
+print('--------------')
+surname5 = ('soyad5: ') 
+print('--------------')
+surname6 = ('soyad6: ') 
+print('--------------')
+surname7 = ('soyad7: ') 
+print('--------------')
+surname8 = ('soya8: ') 
+print('-------------')
+surname9 = ('soyad9: ') 
+print('--------------')
+surname10 = ('soyad10: ') 
+print('----------------')
+Name_list = [name1, name2, name3, name4, name5, name6, name7, name8, name9, name10] 
+
+Surname_list = [surname1, surname2, surname3, surname4, surname5, surname6, surname7, surname8, surname9, surname10]
+
+def ask():
+    global start
+
+    print(' ')
+    start = input('plese enter y to continue: ')
+    print(' ')
+
+ask()
+
+if(start == 'y'): 
+    print('Generating...') 
+    time.sleep(1.25) 
+    print('-------------') 
+    print('Generated!') 
+    print('-------------') 
+    print('Random Name Generated: ')
+    print(random.choice(Name_list),random.choice(Surname_list)) 
+    print('-------------') 
+elif(start != 'y'): 
+    print('-------------') 
+    ask() 
+    print('-------------')
