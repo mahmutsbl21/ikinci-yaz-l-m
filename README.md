@@ -1,1 +1,0 @@
-# ikinci-yaz-l-m
