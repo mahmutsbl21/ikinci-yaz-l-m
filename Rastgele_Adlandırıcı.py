@@ -148,7 +148,7 @@ if(start == 'Basla'):
     time.sleep(1.25)
     print('__________')
     print('By=OrGan MaFyAsı')
-    rime.sleep(1.25)
+    time.sleep(1.25)
     print('Yüklendi!') 
     print('-------------') 
     print('Rastgele isim yapıldı: ')
