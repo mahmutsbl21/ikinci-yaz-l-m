@@ -1,4 +1,4 @@
-from instabot import Bot
+import Bot
 import time
 
 bot = Bot()
